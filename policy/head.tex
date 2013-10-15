@@ -1,0 +1,15 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{titlesec}
+\usepackage{enumitem}
+\titleformat{\section}{\large\scshape}{\thesection}{0em}{}
+\titleformat{\subsection}{\normalfont\scshape}{\thesubsection}{0em}{}
+\renewcommand*\thesection{Function \Roman{section}: }
+\renewcommand*\thesubsection{Subroutine \Roman{section}.\Roman{subsection}: }
+
+\newlist{subroutines}{enumerate}{1}
+\setlist[subroutines]{label = Subroutine \Roman*:, leftmargin = 8em, labelsep = 0.5em, labelwidth = 7.5em, align = left}
