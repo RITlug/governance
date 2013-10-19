@@ -11,5 +11,12 @@
 \renewcommand*\thesection{Function \Roman{section}: }
 \renewcommand*\thesubsection{Subroutine \Roman{section}.\Roman{subsection}: }
 
+\newcommand{\pagetitle}[2]{
+	\begin{center}
+	\LARGE {#1} \\[0.0625in]
+	\large {#2}
+	\end{center}
+}
+
 \newlist{subroutines}{enumerate}{1}
 \setlist[subroutines]{label = Subroutine \Roman*:, leftmargin = 8em, labelsep = 0.5em, labelwidth = 7.5em, align = left}
