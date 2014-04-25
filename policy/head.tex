@@ -6,16 +6,20 @@
 
 \usepackage{titlesec}
 \usepackage{enumitem}
-\titleformat{\section}{\large\scshape}{\thesection}{0em}{}
-\titleformat{\subsection}{\normalfont\scshape}{\thesubsection}{0em}{}
+\titleformat{\section}{\Large\scshape}{\thesection}{0em}{}
+\titleformat{\subsection}{\large\scshape}{\thesubsection}{0em}{}
 \renewcommand*\thesection{Function \Roman{section}: }
-\renewcommand*\thesubsection{Subroutine \Roman{subsection}: }
+\renewcommand*\thesubsection{Parameter \Roman{subsection}: }
 
 \newcommand{\pagetitle}[2]{
-	\begin{center}
-	\LARGE {#1} \\[0.0625in]
-	\large {#2}
-	\end{center}
+	\begin{titlepage}
+	\vspace*{\fill}
+		\begin{center}
+			\Huge {#1} \\[0.0625in]
+			\LARGE {#2}
+		\end{center}
+	\vspace*{\fill}
+	\end{titlepage}
 }
 
 \newlist{subroutines}{enumerate}{1}
