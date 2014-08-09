@@ -1,17 +1,10 @@
-governance
+Governance
 ==========
 
-RITlug's open-source governance documents. 
-Feel free to clone, improve, and submit pull requests
+The official governance documents for the RIT Linux Users Group. All
+work is open-source and suggestions to improve these documents is
+welcome.
 
-License
-----------
-RITLUG/governance repository
-
-This work is licensed under the [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0).
-
-You should have received a copy of the license along with 
-this work. To view a copy of this license, visit 
-http://creativecommons.org/licenses/by/3.0 or send a letter 
-to Creative Commons, 444 Castro Street, Suite 900, 
-Mountain View, California, 94041, USA. 
+All documents in this repository are licensed under the
+[CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/)
+and are released into the public domain.
