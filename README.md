@@ -10,18 +10,21 @@ office for approval, so actual acceptance of changes may lag a bit. When
 new versions of these policies are accepted, they should be printed and
 the hard copies in the club binder should be updated.
 
+Requirements:
+-----------
+* texlive-core
+* texlive-latexextra
+
+(these are likely available in your package manager, but may be under
+different names). You may wish to install additional packages if you
+prefer to edit LaTeX in a specialized editor.
+
+
 Compiling
 -----------
 These documents are maintained in LaTeX and must be compiled. LaTeX supports
 compiling to a variety of formats. In RITlug, we most often need these
 documents in PDF format.
-
-Requirements:
-* texlive-core
-* texlive-latexextra
-
-(these are likely available in your package manager, but may be under
-different names).
 
 Once you have the requirements installed, you can build the policies by
 running
