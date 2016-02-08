@@ -2,8 +2,24 @@ Governance
 ==========
 
 The official governance documents for the RIT Linux Users Group. All
-work is open-source and suggestions to improve these documents is
+work is open-source and suggestions to improve these documents are
 welcome.
+
+Don't be put off if you don't know LaTeX! These documents are not complicated
+and you can easily figure out what's going on from the source code. Here's
+a quick crash course for what you'll find here:
+
+```
+\section{ $name } // Define a new section with the name $name.
+\subsection{ $name } // Define a new subsection with the name $name
+\begin{subroutines} // Start a new list of items in the section
+\item item text // create an item in the section
+\end{subroutines} // end the list
+```
+
+
+There you go! That's all you'll need to contribute. Make sure to also take
+a look at the compiling and requirements sections.
 
 All changes to the constitution are required to be submitted to the clubs
 office for approval, so actual acceptance of changes may lag a bit. When
