@@ -10,7 +10,7 @@ office for approval, so actual acceptance of changes may lag a bit. When
 new versions of these policies are accepted, they should be printed and
 the hard copies in the club binder should be updated.
 
-Requirements:
+Requirements
 -----------
 * texlive-core
 * texlive-latexextra
