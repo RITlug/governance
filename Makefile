@@ -11,4 +11,5 @@ governance.zip: ${PDF}
 	zip governance.zip ${PDF}
 
 clean:
-	rm -f *.log *.aux *.pdf *.zip
+	find . -name "*.log" -o -name "*.aux" -o -name "*.pdf" | xargs rm
+	rm governance.zip
